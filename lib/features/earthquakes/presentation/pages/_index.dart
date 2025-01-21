@@ -1,0 +1,29 @@
+import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter/gestures.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:seysmoprognoz/core/cubit/language_cubit.dart';
+import 'package:seysmoprognoz/core/cubit/quake_params_cubit.dart';
+import 'package:seysmoprognoz/core/cubit/tab_cubit.dart';
+import 'package:seysmoprognoz/core/cubit/theme_context.dart';
+import 'package:seysmoprognoz/core/utils/helpers.dart';
+import 'package:seysmoprognoz/core/widgets/app_map.dart';
+import 'package:seysmoprognoz/core/widgets/barrel.dart';
+import 'package:seysmoprognoz/core/config/extensions.dart';
+import 'package:pull_to_refresh/pull_to_refresh.dart';
+import 'package:seysmoprognoz/core/config/constants.dart';
+import 'package:seysmoprognoz/core/widgets/index.dart';
+import 'package:seysmoprognoz/features/earthquakes/data/models/quake_model.dart';
+import 'package:seysmoprognoz/features/earthquakes/data/models/quake_params_model.dart';
+import 'package:seysmoprognoz/features/earthquakes/presentation/bloc/quakes_all_bloc.dart';
+import 'package:seysmoprognoz/features/earthquakes/presentation/bloc/quakes_bloc.dart';
+import 'package:seysmoprognoz/features/useful_info/presentation/pages/useful_info_screen.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+import '../widgets/_index.dart';
+
+part 'single_quake_screen.dart';
+part 'earthquakes_screen.dart';
+part 'all_quakes.dart';
+part 'quakes.dart';

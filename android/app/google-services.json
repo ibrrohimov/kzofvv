@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "604524100780",
+    "firebase_url": "https://smrm-421b6.firebaseio.com",
+    "project_id": "smrm-421b6",
+    "storage_bucket": "smrm-421b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604524100780:android:9127d985d814eb1e867309",
+        "android_client_info": {
+          "package_name": "fvv.smrm.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604524100780-0fqnbg6cvibel94b6915optqt5fciak8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF5reukaNj7W3tuchu3ert5xD_AIsGX5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604524100780-0fqnbg6cvibel94b6915optqt5fciak8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "604524100780-lbu87bd8nsdfggv3le5iusasf1su169r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.seysmoprognoz.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604524100780:android:98e70d7aec93e5d5867309",
+        "android_client_info": {
+          "package_name": "smrm.earthquake.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604524100780-0fqnbg6cvibel94b6915optqt5fciak8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF5reukaNj7W3tuchu3ert5xD_AIsGX5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604524100780-0fqnbg6cvibel94b6915optqt5fciak8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "604524100780-lbu87bd8nsdfggv3le5iusasf1su169r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.seysmoprognoz.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604524100780:android:6e84028d3dd63ad7867309",
+        "android_client_info": {
+          "package_name": "smrm.fvv.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604524100780-0fqnbg6cvibel94b6915optqt5fciak8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF5reukaNj7W3tuchu3ert5xD_AIsGX5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604524100780-0fqnbg6cvibel94b6915optqt5fciak8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "604524100780-lbu87bd8nsdfggv3le5iusasf1su169r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.seysmoprognoz.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604524100780:android:6caab11214005796867309",
+        "android_client_info": {
+          "package_name": "uz.smrm.smrm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604524100780-0fqnbg6cvibel94b6915optqt5fciak8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF5reukaNj7W3tuchu3ert5xD_AIsGX5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604524100780-0fqnbg6cvibel94b6915optqt5fciak8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "604524100780-lbu87bd8nsdfggv3le5iusasf1su169r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.seysmoprognoz.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
