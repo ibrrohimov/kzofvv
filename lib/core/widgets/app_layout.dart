@@ -48,7 +48,7 @@ class _AppLayoutState extends State<AppLayout> {
     flutterLocalNotificationsPlugin
         .resolvePlatformSpecificImplementation<
             AndroidFlutterLocalNotificationsPlugin>()
-        ?.requestPermission();
+        ?.requestNotificationsPermission();
 
     const AndroidInitializationSettings initializationSettingsAndroid =
         AndroidInitializationSettings('logo');

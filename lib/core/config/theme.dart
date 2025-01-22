@@ -107,62 +107,63 @@ class AppTheme {
   );
 
   static TextTheme textTheme = const TextTheme(
-    headline1: TextStyle(
-      fontSize: 48,
-      fontWeight: FontWeight.w600,
-      color: AppColors.greyScale3,
-    ),
-    headline2: TextStyle(
-      fontSize: 20.0,
-      fontWeight: FontWeight.w700,
-      color: AppColors.greyScale3,
-    ),
-    headline3: TextStyle(
-      fontSize: 16.0,
-      fontWeight: FontWeight.w700,
-      color: AppColors.greyScale3,
-    ),
-    headline4: TextStyle(
-      fontSize: 15.0,
-      fontWeight: FontWeight.w700,
-      color: AppColors.greyScale3,
-    ),
-    headline5: TextStyle(
-      fontSize: 14.0,
-      fontWeight: FontWeight.w700,
-      color: AppColors.greyScale3,
-    ),
-    headline6: TextStyle(
-      fontSize: 13.0,
-      fontWeight: FontWeight.w700,
-      color: AppColors.greyScale3,
-    ),
-    bodyText1: TextStyle(
-      fontSize: 22.0,
-      fontWeight: FontWeight.w400,
-      color: AppColors.greyScale3,
-    ),
-    bodyText2: TextStyle(
-      fontSize: 14.0,
-      fontWeight: FontWeight.w400,
-      color: AppColors.greyScale3,
-    ),
-    subtitle1: TextStyle(
-      fontSize: 18.0,
-      fontWeight: FontWeight.w300,
-      color: AppColors.greyScale3,
-    ),
-    subtitle2: TextStyle(
-      fontSize: 14.0,
-      fontWeight: FontWeight.w300,
-      color: AppColors.greyScale3,
-    ),
-    button: TextStyle(
-      fontSize: 14.0,
-      fontWeight: FontWeight.w500,
-      color: Colors.white,
-    ),
-  ).copyWith();
+          // headline1: TextStyle(
+          //   fontSize: 48,
+          //   fontWeight: FontWeight.w600,
+          //   color: AppColors.greyScale3,
+          // ),
+          // headline2: TextStyle(
+          //   fontSize: 20.0,
+          //   fontWeight: FontWeight.w700,
+          //   color: AppColors.greyScale3,
+          // ),
+          // headline3: TextStyle(
+          //   fontSize: 16.0,
+          //   fontWeight: FontWeight.w700,
+          //   color: AppColors.greyScale3,
+          // ),
+          // headline4: TextStyle(
+          //   fontSize: 15.0,
+          //   fontWeight: FontWeight.w700,
+          //   color: AppColors.greyScale3,
+          // ),
+          // headline5: TextStyle(
+          //   fontSize: 14.0,
+          //   fontWeight: FontWeight.w700,
+          //   color: AppColors.greyScale3,
+          // ),
+          // headline6: TextStyle(
+          //   fontSize: 13.0,
+          //   fontWeight: FontWeight.w700,
+          //   color: AppColors.greyScale3,
+          // ),
+          // bodyText1: TextStyle(
+          //   fontSize: 22.0,
+          //   fontWeight: FontWeight.w400,
+          //   color: AppColors.greyScale3,
+          // ),
+          // bodyText2: TextStyle(
+          //   fontSize: 14.0,
+          //   fontWeight: FontWeight.w400,
+          //   color: AppColors.greyScale3,
+          // ),
+          // subtitle1: TextStyle(
+          //   fontSize: 18.0,
+          //   fontWeight: FontWeight.w300,
+          //   color: AppColors.greyScale3,
+          // ),
+          // subtitle2: TextStyle(
+          //   fontSize: 14.0,
+          //   fontWeight: FontWeight.w300,
+          //   color: AppColors.greyScale3,
+          // ),
+          // button: TextStyle(
+          //   fontSize: 14.0,
+          //   fontWeight: FontWeight.w500,
+          //   color: Colors.white,
+          // ),
+          )
+      .copyWith();
 
   static const systemUiOverlayStyle = SystemUiOverlayStyle(
     statusBarColor: AppColors.primary1,

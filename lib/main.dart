@@ -14,8 +14,12 @@ void main() async {
   await EasyLocalization.ensureInitialized();
 
   // Firebase ######
-  await Firebase.initializeApp();
-  await FirebaseApi().initNotifications();
+  try {
+    await Firebase.initializeApp();
+    await FirebaseApi().initNotifications();
+  } catch (e) {
+    print(e.toString());
+  }
 
   runApp(const BlocProviders());
 }
