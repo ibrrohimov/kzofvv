@@ -13,6 +13,7 @@ class EarthquakesRemoteDataSourceImpl implements EarthquakesRemoteDataSource {
 
   @override
   Future<List<QuakeModel>> getQuakes(params) async {
+    print("@@@@@@@@@@getQuakes");
     try {
       final res = await dio.post(
         Endpoints.yangilikuser,
@@ -22,6 +23,8 @@ class EarthquakesRemoteDataSourceImpl implements EarthquakesRemoteDataSource {
       List quakes = res.data['data'];
       return quakes.map((e) => QuakeModel.fromJson(e)).toList();
     } catch (e) {
+      print("@@@@@@@@@@ERRROR");
+      print(e.toString());
       rethrow;
     }
   }
